@@ -95,10 +95,10 @@ let handleWindowResize = () => {
                                 <p>Profile</p>
                             </div>
                         </router-link>
-                        <router-link to="/signIn" tag="li" class="nav-item">
+                        <router-link to="/login" tag="li" class="nav-item">
                             <div class="nav-item-hold">
                                 <i class="i-Checked-User text-3xl"></i>
-                                <p>Sign In</p>
+                                <p>Login</p>
                             </div>
                         </router-link>
                         <router-link to="/signUp" tag="li" class="nav-item">
@@ -128,7 +128,7 @@ let handleWindowResize = () => {
 
 <style lang="scss" scoped>
 .nav-item.router-link-exact-active {
-    @apply text-purple-500;
+    @apply text-blue-500;
 
     &:after {
         content: '';
@@ -138,7 +138,7 @@ let handleWindowResize = () => {
         bottom: -15px;
         right: -15px;
         transform: rotate(45deg);
-        @apply bg-purple-500;
+        @apply bg-blue-500;
     }
 }
 .submenuLi {
@@ -194,7 +194,7 @@ let handleWindowResize = () => {
                 cursor: pointer;
                 &:hover {
                     .nav-item-hold {
-                        @apply text-purple-500;
+                        @apply text-blue-500;
                     }
                     &:after {
                         content: '';
@@ -204,12 +204,12 @@ let handleWindowResize = () => {
                         bottom: -15px;
                         right: -15px;
                         transform: rotate(45deg);
-                        @apply bg-purple-500;
+                        @apply bg-blue-500;
                     }
                 }
 
                 &.active {
-                    @apply text-purple-500;
+                    @apply text-blue-500;
 
                     &:after {
                         content: '';
@@ -219,7 +219,7 @@ let handleWindowResize = () => {
                         bottom: -15px;
                         right: -15px;
                         transform: rotate(45deg);
-                        @apply bg-purple-500;
+                        @apply bg-blue-500;
                     }
                 }
                 border-bottom: 1px solid #dee2e6;
@@ -279,7 +279,7 @@ let handleWindowResize = () => {
                 // &.active {
                 //     a {
                 //         background-color: #f3f4f6;
-                //         @apply text-purple-500;
+                //         @apply text-blue-500;
                 //     }
                 // }
                 a {
@@ -292,10 +292,10 @@ let handleWindowResize = () => {
                     transition: 0.15s all ease-in;
                     &:hover {
                         background-color: #f3f4f6;
-                        @apply text-purple-500;
+                        @apply text-blue-500;
                     }
                     &.router-link-active.router-link-exact-active {
-                        @apply text-purple-500;
+                        @apply text-blue-500;
                     }
                 }
                 ul.submenu {

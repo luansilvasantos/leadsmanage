@@ -10,8 +10,7 @@
       <div class="h-full flex flex-col">
 
         <!-- header-->
-        <div class="cursor-grab p-1 space-x-2 bg-primary text-white flex space-x-2">
-          <HandIcon class="h-5 w-5"></HandIcon>
+        <div class="cursor-grab p-1 justify-center  bg-primary text-white flex space-x-2">
           <span class="text-lg">{{ column.name }}</span>
         </div>
         <!-- column -->
